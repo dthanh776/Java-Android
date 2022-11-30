@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivLoaiSD"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hogiadinh" />
+    <EditText
+        android:id="@+id/txtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ho ten" />
+    <EditText
+        android:id="@+id/txtChiSoDau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap chi so dau" />
+
+    <EditText
+        android:id="@+id/txtChiSoCuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap chi so cuoi" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdHoGiaoDinh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="@string/hogiadinh" />
+
+        <RadioButton
+            android:id="@+id/rdKinhDoanh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hokinhdoanh" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Them" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sua" />
+
+        <Button
+            android:id="@+id/btnHienThi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hien thi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnTang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sap xep tang"/>
+        <Button
+            android:id="@+id/btnGiam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sap xep giam"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

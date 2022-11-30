@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HoTenDemoRadio</string>
+    <string name="tt">Thông tin cá nhân</string>
+    <string name="ht">Họ tên</string>
+    <string name="cmnd">CMND</string>
+    <string name="bc">Bằng cấp</string>
+    <string name="dh">Đại học</string>
+    <string name="cd">Cao đẳng</string>
+    <string name="tc">Trung cấp</string>
+    <string name="st">Sở thích</string>
+    <string name="game">Chơi game</string>
+    <string name="ds">Đọc sách</string>
+    <string name="db">Đọc báo</string>
+    <string name="ttk">Thông tin khác</string>
+    <string name="gtt">Gửi thông tin</string>
+    <array name="dulieu">
+        <item>SamSung</item>
+        <item>Iphone</item>
+    </array>
+</resources>

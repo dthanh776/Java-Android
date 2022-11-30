@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hogiadinh">Gia Dinh</string>
+    <string name="hokinhdoanh">Kinh Doanh</string>
+</resources>

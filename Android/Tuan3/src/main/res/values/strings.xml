@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuiDuyThanh_3</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="birth">Birthday</string>
+</resources>

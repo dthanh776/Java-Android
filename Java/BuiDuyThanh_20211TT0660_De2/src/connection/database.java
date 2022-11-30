@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package connection;
+import java.sql.Connection;
+import java.sql.DriverManager;
+/**
+ *
+ * @author dthan
+ */
+public class database {
+
+    public static Connection c;
+    private static String db_url = "jdbc:mysql://localhost:3306/suamaytinh?characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private static String username = "root";
+    private static String password = "";
+
+    public static Connection getConnection() throws Exception {
+        if (c == null) {
+            Class.forName("com.mysql.cj.jdbc.Driver");// 
+            c = DriverManager.getConnection(db_url, username, password);
+        }
+        return c;
+    }
+
+    public static Connection getConnection(int TYPE_SCROLL_INSENSITIVE, int CONCUR_READ_ONLY) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}
